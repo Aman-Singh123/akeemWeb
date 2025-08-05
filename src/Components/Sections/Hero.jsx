@@ -13,7 +13,7 @@ function Hero() {
                 </span>
                 <h1 className=" text-[16px] md:text-[40px]  lg:text-[64px] mt-[21px] font-poppins font-normal leading-tight text-white">
                     Send & Receive Money <br />
-                    <span className="flex justify-content-center md:justify-content-start md:text-left items-center   gap-2">
+                    <span className="flex justify-center items-center gap-2">
                         Instantly with
                         <img
                             src="/Images/Svg/logo-white.svg"
