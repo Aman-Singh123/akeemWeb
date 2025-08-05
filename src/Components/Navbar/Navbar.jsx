@@ -1,6 +1,6 @@
 import React from 'react'
-import { useState , useEffect } from "react";
-import { HiMenuAlt3, HiX } from "react-icons/hi"; 
+import { useState, useEffect } from "react";
+import { HiMenuAlt3, HiX } from "react-icons/hi";
 
 function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
@@ -9,7 +9,7 @@ function Navbar() {
         const handleResize = () => {
             setScreenWidth(window.innerWidth);
 
-            // Auto-close mobile menu if user resizes to desktop
+
             if (window.innerWidth >= 768) {
                 setIsOpen(false);
             }
@@ -17,11 +17,11 @@ function Navbar() {
     })
     return (
         <div className="bg-white  rounded-3xl  md:rounded-full shadow-lg mt-2 px-6 py-5 flex items-center justify-between relative">
-            {/* Logo */}
+
             <div>
                 <img src="/Images/Svg/logo.svg" alt="Mainlogo" className="h-8" />
             </div>
-            {/* Desktop Menu */}
+
             <div className="hidden md:flex items-center space-x-4 bg-[#6061F714] px-4 py-2 rounded-full  md:mx-1 lg:mx-4">
                 {["Home", "Features", "Regions", "FAQs"].map((item, idx) => (
                     <a
@@ -34,7 +34,7 @@ function Navbar() {
                 ))}
             </div>
 
-            {/* Buttons */}
+
             <div className="hidden md:flex items-center space-x-3">
                 <button className="border text-black border-black  md:px-2 md:py-2 px-5 py-3   lg:px-5 lg:py-3  rounded-full font-poppins sm:text-lg md:text-[10px] lg:text-sm font-medium hover:bg-[#6061F7] hover:text-white hover:border-none">
                     Get Started
@@ -44,7 +44,7 @@ function Navbar() {
                 </button>
             </div>
 
-            {/* Mobile Hamburger Icon */}
+
             <div className="md:hidden">
                 <button onClick={() => setIsOpen(!isOpen)}>
                     {isOpen ? (
@@ -77,7 +77,7 @@ function Navbar() {
                     </nav>
                 </div>
             )}
-           
+
         </div>
     )
 }

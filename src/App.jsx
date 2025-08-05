@@ -5,6 +5,7 @@ import Navbar from './Components/Navbar/Navbar.jsx'
 import Hero from './Components/Sections/Hero.jsx'
 import Ourfeatures from './Components/Sections/Ourfeatures.jsx'
 import Everyregion from './Components/Sections/Everyregion.jsx'
+import EmpowerWallet from './Components/Sections/EmpowerWallet.jsx'
 
 function App() {
   const [activeTab, setActiveTab] = useState('individual');
@@ -39,7 +40,8 @@ function App() {
         <Navbar />
         <Hero />
         <Ourfeatures /> 
-        <Everyregion/>
+        <Everyregion />
+        <EmpowerWallet/>
       </div>
     </>
 
