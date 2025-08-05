@@ -13,12 +13,11 @@ const COLORS = ["#2b2b2b", "#98c1ff", "#a3e4bb", "#dce1f9"];
 function Ourfeatures() {
     return (
         <div className='mt-20 text-center'>
-            <p className='text-[40px] font-poppins  font-semibold  text-black'>Our Features</p>
-            <p className='text-lg font-poppins  font-normal   text-black'>Built for Real Life. Trusted in Every Transaction. Your money, your terms, no friction, just precision.</p>
-            <div className="flex flex-col md:flex-row gap-6 p-20">
-
-                <div className="md:w-1/2 relative">
-                    <img src="Images/Png/card.png" alt="User Talking" className="rounded-xl object-cover w-full h-full" />
+            <p className=' text-[18px] md:text-[32px] lg:text-[40px] font-poppins  font-semibold  text-black'>Our Features</p>
+            <p className=' text-md  md:text-lg font-poppins  font-normal   text-black'>Built for Real Life. Trusted in Every Transaction. Your money, your terms, no friction, just precision.</p>
+            <div className="flex flex-col md:flex-row  gap-3 xl:gap-6  md:p-3  lg:p-7 xl:p-20">
+                <div className="md:w-[60%]  xl:w-1/2 relative">
+                    <img src="Images/Png/card.png" alt="User Talking" className="rounded-xl  object-fit-contain xl:object-cover w-full h-full" />
                     {/* <div className="absolute top-6 right-6 bg-white shadow-lg rounded-xl p-4 w-60">
                         <p className="text-gray-400 text-sm">Capital advance</p>
                         <p className="text-2xl font-bold">$75,000</p>
@@ -37,18 +36,17 @@ function Ourfeatures() {
                 </div>
 
 
-                <div className="md:w-1/2 flex flex-col gap-4">
+                <div className=" md:w-[40%] xl:w-1/2 flex flex-col gap-4">
                     <div className="shadow-[0px_4px_27.8px_0px_#00000026] bg-[#6061F714] rounded-xl p-6">
-                        <h3 className="text-2xl ms-0 text-left mt-3  me-0 font-semibold font-inter text-black mb-2">Global Personal Payout Dashboard</h3>
-                        <p className="text-lg text-left ms-0 me-0 font-light font-inter text-black mb-4">Send money anywhere in seconds using our easy-to-use  dashboard, built-in ID verification.</p>
+                        <h3 className=" md:text-xl lg:text-2xl ms-0 text-left mt-3  me-0 font-semibold font-inter text-black mb-2">Global Personal Payout Dashboard</h3>
+                        <p className=" md:text-md lg:text-lg text-left ms-0 me-0 font-light font-inter text-black mb-4">Send money anywhere in seconds using our easy-to-use  dashboard, built-in ID verification.</p>
 
-                        <div className="bg-white p-3 rounded-xl shadow-md w-full flex flex-col md:flex-row items-start gap-6">
-                            <div className="flex items-center gap-2 w-full md:w-1/3">
+                        <div className="bg-white p-3 rounded-xl shadow-md w-full  lg:flex lg:flex-col md:flex-row items-start gap-6">
+                            <div className="flex items-center gap-2 w-full xl:w-1/3">
                                 <img src="/Images/Svg/tick.svg" alt="rightSign" />
                                 <p className="text-sm text-left font-medium text-gray-700">Your Payments are Sent</p>
                             </div>
-                            <div className="flex items-center justify-between w-full md:w-2/3">
-
+                            <div className="  md:   xl:flex  xl:items-center xl:justify-between w-full xl:w-2/3">
                                 <PieChart width={120} height={120}>
                                     <Pie
                                         data={data}
@@ -98,7 +96,7 @@ function Ourfeatures() {
                                     <p className="font-semibold text-lg">John Doe</p>
                                 </div>
                             </div>
-                            <div className='flex gap-28 items-center '>
+                            <div className='lg:flex lg:gap-4  xl:gap-28 items-center '>
                                 <div className="flex items-center gap-4 mt-4 min-w-[140px] ">
                                     <img src="/Images/Svg/bluecircle.svg" alt="BlueCircle" />
                                     <div className='text-left'>
@@ -116,7 +114,7 @@ function Ourfeatures() {
 
                             </div>
 
-                            <div className='flex gap-28 items-center '>
+                            <div className='lg:flex  lg:gap-4  xl:gap-28 items-center '>
                                 <div className="flex items-center gap-4 mt-4 min-w-[140px] ">
                                     <img src="/Images/Svg/bluecircle.svg" alt="BlueCircle" />
                                     <div className='text-left'>
@@ -135,9 +133,9 @@ function Ourfeatures() {
                             </div>
                         </div>
 
-                        <div className='text-left mt-5'>
-                            <h3 className="text-2xl font-poppins  font-semibold  text-black">Personal Stablecoin Exchange</h3>
-                            <p className="text-lg font-light font-inter text-black ">Effortlessly swap USD-pegged tokens in seconds with sub-cent slippage and best-rate routing.</p>
+                        <div className='text-left md:mt-2  lg:mt-5'>
+                            <h3 className="md:text-lg  lg:text-2xl font-poppins  font-semibold  text-black">Personal Stablecoin Exchange</h3>
+                            <p className=" md:text-md lg:text-lg font-light font-inter text-black ">Effortlessly swap USD-pegged tokens in seconds with sub-cent slippage and best-rate routing.</p>
                         </div>
                     </div>
                 </div>
