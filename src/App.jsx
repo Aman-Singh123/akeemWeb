@@ -4,6 +4,7 @@ import './App.css'
 import Navbar from './Components/Navbar/Navbar.jsx'
 import Hero from './Components/Sections/Hero.jsx'
 import Ourfeatures from './Components/Sections/Ourfeatures.jsx'
+import Everyregion from './Components/Sections/Everyregion.jsx'
 
 function App() {
   const [activeTab, setActiveTab] = useState('individual');
@@ -37,7 +38,8 @@ function App() {
       <div className="container px-4 sm:px-6  md:px-3 lg:px-6 mx-auto [@media(min-width:1280px)]:max-w-[1300px] [@media(min-width:1280px)]:px-12  [@media(min-width:1480px)]:px-4">
         <Navbar />
         <Hero />
-        <Ourfeatures/> 
+        <Ourfeatures /> 
+        <Everyregion/>
       </div>
     </>
 

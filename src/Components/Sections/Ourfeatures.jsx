@@ -35,7 +35,6 @@ function Ourfeatures() {
                     </div> */}
                 </div>
 
-
                 <div className=" md:w-[40%] xl:w-1/2 flex flex-col gap-4">
                     <div className="shadow-[0px_4px_27.8px_0px_#00000026] bg-[#6061F714] rounded-xl p-6">
                         <h3 className=" md:text-xl lg:text-2xl ms-0 text-left mt-3  me-0 font-semibold font-inter text-black mb-2">Global Personal Payout Dashboard</h3>
