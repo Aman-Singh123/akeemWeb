@@ -31,10 +31,13 @@ function EmpowerWallet() {
             <p className='text-md  md:text-lg mt-3 m-auto font-poppins max-w-[1000px]  font-normal text-[#000000CC]'>Empower your wallet with seamless access to payments, currency management, and smart conversions, all in one easy-to-use platform.</p>
             <div className="flex relative mt-6 flex-col md:flex-row gap-6  justify-center items-start">
                 <img className=" hidden lg:block absolute lg:w-[68%] xl:w-[59%] -bottom-2 lg:left-[68%] xl:left-[65%] -translate-x-1/2  z-0 " src="/Images/Png/curveline.png" alt="curveline" />
+                <button className="border pointer absolute lg:right-[5%] xl:right-[10%] sm:-bottom-24     md:-bottom-0  xl:-bottom-4  text-black border-black  md:px-2 md:py-2 lg:px-5 lg:py-3 px-5 py-3  font-poppins rounded-full sm:text-lg md:text-[10px] lg:text-sm font-medium flex items-center gap-1 ">
+                    Explore More Features <span>→</span>
+                </button>
                 {features.map((feature, index) => {
 
                     const staggerClass =
-                        index === 0 ? "sm:mt-24" : index === 1 ? "sm:mt-12" : "sm:mt-0";
+                        index === 0 ? "md:mt-24" : index === 1 ? "md:mt-12" : "sm:mt-0";
 
                     return (
                         <div
