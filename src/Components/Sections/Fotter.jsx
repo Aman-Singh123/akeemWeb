@@ -4,7 +4,7 @@ function Fotter() {
     return (
         <footer className="bg-white shadow-[0px_6px_27.8px_#00000026] py-12 px-6 sm:px-10 md:px-20  rounded-t-4xl">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-sm text-[#1F1F1F]">
-                {/* Column 1: Explore */}
+
                 <div>
                     <h4 className="font-bold font-sans text-lg mb-4 text-[#0A142F]">Explore</h4>
                     <ul className="space-y-2 text-[#0A142F] text-lg font-light font-sans">
@@ -17,7 +17,7 @@ function Fotter() {
                     </ul>
                 </div>
 
-                {/* Column 2: Quick Access */}
+
                 <div>
                     <h4 className="font-bold font-sans text-lg mb-4 text-[#0A142F]">Quick Access</h4>
                     <ul className="space-y-2 text-[#0A142F] text-lg font-light font-sans">
@@ -29,9 +29,9 @@ function Fotter() {
                     </ul>
                 </div>
 
-                {/* Column 3: Office Location + Newsletter (stacked vertically) */}
+
                 <div className="flex flex-col gap-6">
-                    {/* Office Location */}
+
                     <div>
                         <h4 className="font-normal font-sans text-lg mb-4 text-[#0A142F]">OFFICE LOCATION</h4>
                         <p className="text-[#0A142F] text-[14px] font-light font-sans">
@@ -40,7 +40,7 @@ function Fotter() {
                         </p>
                     </div>
 
-                    {/* Newsletter */}
+
                     <div>
                         <h4 className="font-normal font-sans text-lg mb-4 text-[#0A142F]">Newsletter</h4>
                         <div className="flex items-center border-b border-[#D1D5DB] py-2 max-w-md">
@@ -60,7 +60,7 @@ function Fotter() {
 
 
 
-            {/* Footer Bottom */}
+
             <div className="border-t border-[rgba(10,20,47,0.25)]  mt-10 pt-6 flex flex-col md:flex-row items-center justify-center text-sm  gap-4">
                 <div className="flex space-x-4">
                     <a href="#"><img src="/Images/Svg/twitter.svg" alt="Twitter" className="w-8 h-8  " /></a>

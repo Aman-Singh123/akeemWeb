@@ -25,7 +25,7 @@ const faqs = [
 ];
 
 export default function FaqSection() {
-    const [openIndex, setOpenIndex] = useState(0); // First item open by default
+    const [openIndex, setOpenIndex] = useState(0); 
 
     const toggle = (index) => {
         setOpenIndex(openIndex === index ? null : index);
@@ -45,7 +45,7 @@ export default function FaqSection() {
                             onClick={() => toggle(index)}
                         >
                             <div className="flex justify-between items-center">
-                                <h3 className="font-semibold text-black font-poppins text-xl sm:text-lg">
+                                <h3 className="font-semibold text-black font-poppins md:text-xl sm:text-[12px]">
                                     {item.question}
                                 </h3>
                                 <span className="text-3xl text-[#1d1d1d]">
@@ -53,7 +53,7 @@ export default function FaqSection() {
                                 </span>
                             </div>
                             {openIndex === index && item.answer && (
-                                <p className="mt-3 text-md font-light text-black font-poppins">
+                                <p className="mt-3 sm:text-[10px]  md:text-[16px] font-light text-black font-poppins">
                                     {item.answer}
                                 </p>
                             )}
