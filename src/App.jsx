@@ -7,6 +7,7 @@ import Ourfeatures from './Components/Sections/Ourfeatures.jsx'
 import Everyregion from './Components/Sections/Everyregion.jsx'
 import EmpowerWallet from './Components/Sections/EmpowerWallet.jsx'
 import FaqSection from './Components/Sections/FaqSection.jsx'
+import Fotter from './Components/Sections/Fotter.jsx'
 
 
 function App() {
@@ -44,9 +45,9 @@ function App() {
         <Ourfeatures /> 
         <Everyregion />
         <EmpowerWallet />
-        <FaqSection/>
-       
+        <FaqSection />
       </div>
+      <Fotter />
     </>
 
 
