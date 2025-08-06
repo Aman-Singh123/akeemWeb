@@ -40,12 +40,12 @@ function Ourfeatures() {
                         <h3 className=" md:text-xl lg:text-2xl ms-0 text-left mt-3  me-0 font-semibold font-inter text-black mb-2">Global Personal Payout Dashboard</h3>
                         <p className=" md:text-md lg:text-lg text-left ms-0 me-0 font-light font-inter text-black mb-4">Send money anywhere in seconds using our easy-to-use  dashboard, built-in ID verification.</p>
 
-                        <div className="bg-white p-3 rounded-xl shadow-md w-full  lg:flex lg:flex-col md:flex-row items-start gap-6">
+                        <div className="bg-white p-3 rounded-xl shadow-md w-full  lg:flex lg:flex-col xl:flex-row md:flex-row items-start gap-6">
                             <div className="flex items-center gap-2 w-full xl:w-1/3">
                                 <img src="/Images/Svg/tick.svg" alt="rightSign" />
                                 <p className="text-sm text-left font-medium text-gray-700">Your Payments are Sent</p>
                             </div>
-                            <div className="  md:   xl:flex  xl:items-center xl:justify-between w-full xl:w-2/3">
+                            <div className="lg:flex  lg:items-center lg:justify-between w-full xl:w-2/3">
                                 <PieChart width={120} height={120}>
                                     <Pie
                                         data={data}

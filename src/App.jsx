@@ -8,6 +8,7 @@ import Everyregion from './Components/Sections/Everyregion.jsx'
 import EmpowerWallet from './Components/Sections/EmpowerWallet.jsx'
 import FaqSection from './Components/Sections/FaqSection.jsx'
 import Fotter from './Components/Sections/Fotter.jsx'
+import OurBusinesFeatures from './Components/Sections/OurBusinesFeature.jsx'
 
 
 function App() {
@@ -17,7 +18,7 @@ function App() {
 
     <>
       <div className="w-full flex flex-col items-center shadow-md">
-      
+
         <div className="w-full flex  bg-white">
           <div className="flex  mt-0   ms-0 md:ms-[136px]">
             <button
@@ -41,8 +42,8 @@ function App() {
       </div>
       <div className="container px-4 sm:px-6  md:px-3 lg:px-6 mx-auto [@media(min-width:1280px)]:max-w-[1300px] [@media(min-width:1280px)]:px-12  [@media(min-width:1480px)]:px-4">
         <Navbar />
-        <Hero />
-        <Ourfeatures /> 
+        <Hero activeTab={activeTab} />
+        {activeTab === "individual" ? <Ourfeatures /> : <OurBusinesFeatures />}
         <Everyregion />
         <EmpowerWallet />
         <FaqSection />

@@ -1,1 +1,9 @@
 @import "tailwindcss";
+
+.dotted-progress .CircularProgressbar-path {
+    stroke-dasharray: 4, 4;
+}
+
+.dotted-progress .CircularProgressbar-trail {
+    stroke-dasharray: 4, 4;
+}

@@ -11,3 +11,7 @@
 .font-inter {
   font-family: 'Inter', sans-serif;
 }
+
+.dotted-progress .CircularProgressbar-path {
+  stroke-dasharray: 4, 4;
+}
