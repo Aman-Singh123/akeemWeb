@@ -15,10 +15,8 @@ function App() {
   const [activeTab, setActiveTab] = useState('individual');
 
   return (
-
     <>
       <div className="w-full flex flex-col items-center shadow-md">
-
         <div className="w-full flex  bg-white">
           <div className="flex  mt-0   ms-0 md:ms-[136px]">
             <button

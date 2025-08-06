@@ -5,14 +5,13 @@ import { countries } from '../../assets/flag'
 
 
 function Hero({ activeTab }) {
-    console.log("activeTab is ", activeTab)
     return (
         <div className=" bg-[#6061F7] mt-[25px] text-white flex flex-col items-center justify-center rounded-3xl p-6">
             <div className="text-center">
                 <span className="px-4 py-2 text-[12.5px] font-medium font-poppins mt-[50px] lg:mt-[137px] bg-white text-[#112B53] rounded-full mb-4 inline-block">
                     Built for Speed. Trusted for Security
                 </span>
-                {activeTab === "individual" ? <h1 className=" text-[16px] md:text-[40px]  lg:text-[64px] mt-[21px] font-poppins font-normal leading-tight text-white">
+                {activeTab === "individual" ? <h1 className=" text-[16px] md:text-[50px]  lg:text-[64px] mt-[21px] font-poppins font-normal leading-tight text-white">
                     Send & Receive Money <br />
                     <span className="flex justify-center items-center gap-2">
                         Instantly with

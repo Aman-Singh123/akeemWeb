@@ -132,9 +132,9 @@ function Ourfeatures() {
                             </div>
                         </div>
 
-                        <div className='text-left md:mt-2  lg:mt-5'>
-                            <h3 className="md:text-lg  lg:text-2xl font-poppins  font-semibold  text-black">Personal Stablecoin Exchange</h3>
-                            <p className=" md:text-md lg:text-lg font-light font-inter text-black ">Effortlessly swap USD-pegged tokens in seconds with sub-cent slippage and best-rate routing.</p>
+                        <div className='text-left  mt-5 md:mt-2  lg:mt-5'>
+                            <h3 className="md:text-lg   lg:text-2xl font-poppins  font-semibold  text-black">Personal Stablecoin Exchange</h3>
+                            <p className=" md:text-md mt-2 lg:text-lg font-light font-inter text-black ">Effortlessly swap USD-pegged tokens in seconds with sub-cent slippage and best-rate routing.</p>
                         </div>
                     </div>
                 </div>
